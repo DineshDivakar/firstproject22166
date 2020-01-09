@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNGTest" >
+<listeners>
+<listener class-name="ebox.Selenium.LCCC.ListenerTest"/>
+</listeners>
+  <test name="Functionality test" >
+  <parameter name="userid" value="92702161"/>
+  <parameter name="password" value="agile"/>
+      <classes>
+         <class name="com.Plm.SIT.Testing.NewProductLaunch"/>
+    </classes>
+ </test>
+</suite>

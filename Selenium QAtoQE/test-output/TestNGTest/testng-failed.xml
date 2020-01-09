@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNGTest]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ebox.Selenium.LCCC.ListenerTest"/>
+  </listeners>
+  <test thread-count="5" name="Functionality test(failed)">
+    <parameter name="password" value="agile"/>
+    <parameter name="userid" value="92702161"/>
+    <classes>
+      <class name="com.Plm.SIT.Testing.NewProductLaunch">
+        <methods>
+          <include name="iframetest"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- com.Plm.SIT.Testing.NewProductLaunch -->
+    </classes>
+  </test> <!-- Functionality test(failed) -->
+</suite> <!-- Failed suite [TestNGTest] -->

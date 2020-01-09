@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-24T02:57:59Z" name="Default suite" finished-at="2019-12-24T02:58:15Z" duration-ms="16220">
+    <groups>
+    </groups>
+    <test started-at="2019-12-24T02:57:59Z" name="Default test" finished-at="2019-12-24T02:58:15Z" duration-ms="16220">
+      <class name="com.AA.exercise.techroundtest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.AA.exercise.techroundtest@32b260fa]" started-at="2019-12-24T02:57:59Z" name="setup" finished-at="2019-12-24T02:58:14Z" duration-ms="14996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.AA.exercise.techroundtest@32b260fa]" started-at="2019-12-24T02:58:14Z" name="login" finished-at="2019-12-24T02:58:14Z" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.AA.exercise.techroundtest@32b260fa]" started-at="2019-12-24T02:58:14Z" name="teardown" finished-at="2019-12-24T02:58:15Z" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.AA.exercise.techroundtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
